@@ -18,7 +18,7 @@ class AppResponsive extends StatelessWidget {
   static bool isSmallScreen(
           BuildContext
               context) => // app only have small and large modes, can be assign different later
-      MediaQuery.of(context).size.width < smallScreenSize;
+      MediaQuery.of(context).size.width < mediumScreenSize;
 
   static bool isMediumScreen(BuildContext context) =>
       MediaQuery.of(context).size.width >= mediumScreenSize &&
