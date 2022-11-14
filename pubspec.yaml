@@ -1,0 +1,29 @@
+name: my_fresh_web
+description: A flutter responsive web layout + getx boilerplate. A good point for flutter web projects to start from :)
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2  # do not forget to update version
+  get: ^4.6.5     # do not forget to update version
+  google_fonts: ^3.0.1  # do not forget to update version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
